@@ -148,8 +148,13 @@ aside#asideDreapta {
 
 /* Normal */
 @media (min-width: 769px) and (max-width: 1200px) {
-  body {
-    background: green;
+  #pagina {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
   }
 }
 
