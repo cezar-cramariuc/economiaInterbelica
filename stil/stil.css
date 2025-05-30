@@ -102,6 +102,14 @@ figure {
     "footer";
 }
 
+aside#asideDreapta {
+  grid-area: asideDR;
+}
+
+aside#asideStanga {
+  grid-area: asideSTG;
+}
+
 header {
   color: var(--secondary-1-0);
 }
