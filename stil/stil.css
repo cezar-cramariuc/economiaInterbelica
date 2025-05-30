@@ -96,13 +96,42 @@ figure {
     "header"
     "nav"
     "content"
-    "sidebar"
+    "asideSTG"
+    "asideDR"
     "ad"
     "footer";
 }
 
+header {
+  color: var(--secondary-1-0);
+}
+
+main {
+  background-color: var(--secondary-1-1);
+}
+
+footer {
+  background-color: var(--secondary-1-3);
+}
+
+aside#asideStanga {
+  background-color: var(--secondary-1-4);
+}
+
+aside#asideDreapta {
+  background-color: var(--secondary-1-2);
+}
+
 /* Smartphones */
 @media only screen and (max-width: 500px) {
+  #pagina {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+  }
 }
 
 /* Tablet */
