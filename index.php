@@ -9,6 +9,15 @@
 </head>
 
 <body>
+    <div id="pagina">
+        <header></header>
+        <aside id="asideStanga"></aside>
+        <main></main>
+        <aside id="asideDreapta"></aside>
+        <footer></footer>
+
+    </div>
+
 
 </body>
 
