@@ -88,22 +88,6 @@ figure {
   line-height: 1.6em;
   display: grid;
   grid-gap: 0rem;
-  grid-template-areas:
-    "header"
-    "nav"
-    "content"
-    "asideSTG"
-    "asideDR"
-    "ad"
-    "footer";
-}
-
-aside#asideDreapta {
-  grid-area: asideDR;
-}
-
-aside#asideStanga {
-  grid-area: asideSTG;
 }
 
 header {
@@ -131,10 +115,6 @@ aside#asideDreapta {
   #pagina {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
-    grid-template-areas:
-      "header"
-      "main"
-      "footer";
   }
 }
 
@@ -146,7 +126,7 @@ aside#asideDreapta {
 @media (min-width: 769px) and (max-width: 1200px) {
   #pagina {
     display: grid;
-    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto 1fr auto;
   }
 
