@@ -150,7 +150,7 @@ aside#asideDreapta {
   }
 
   header {
-    grid-column: col-start 1 / span 12;
+    grid-column: 1 / 12;
     grid-row: 1 / 2;
   }
 
