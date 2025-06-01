@@ -145,6 +145,7 @@ aside#asideDreapta {
 /* Normal */
 @media (min-width: 769px) and (max-width: 1200px) {
   #pagina {
+    display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
     grid-template-rows: auto 1fr auto;
   }
