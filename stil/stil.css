@@ -177,6 +177,7 @@ aside#asideDreapta {
 /* Widescreen */
 @media (min-width: 1201px) {
   #pagina {
+    background-color: blue;
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
     grid-template-rows: auto 1fr auto;
