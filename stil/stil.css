@@ -163,28 +163,33 @@ aside#asideDreapta {
   #pagina {
     background-color: rgb(234, 234, 237);
     display: grid;
-    grid-template-columns: repeat(12, [col-start] 1fr);
-    grid-template-rows: auto 1fr auto;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10rem 1fr auto;
   }
 
   header {
-    grid-column: col-start 1 / span 12;
+    grid-column: 1 / 13;
     grid-row: 1 / 2;
     display: grid;
   }
 
   #asideStanga {
-    grid-column: col-start / span 4;
+    grid-column: 1 / 4;
     grid-row: 2 / 3;
   }
 
   main {
-    grid-column: col-start 5 / span 6;
+    grid-column: 4 / 10;
+    grid-row: 2 / 3;
+  }
+
+  #asideDreapta {
+    grid-column: 10 / 12;
     grid-row: 2 / 3;
   }
 
   footer {
-    grid-column: col-start 1 / span 12;
+    grid-column: 1 / 13;
     grid-row: 3 / 4;
   }
 
