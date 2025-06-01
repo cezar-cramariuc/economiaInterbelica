@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-@view-transition {
-  navigation: auto;
-}
-
 ::view-transition-group(root) {
   animation-duration: 3s;
 }
