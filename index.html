@@ -13,7 +13,51 @@
         <h1>Economia interbelică</h1>
       </header>
       <aside id="asideStanga"></aside>
-      <main>wwwwww</main>
+      <main>
+        <?php
+    if(isset($_POST['p'])){
+      $p = $_POST['p'];
+    }
+      elseif($_GET['p']){
+$p=$_GET['p'];
+      }
+    else{
+      $p=NULL;
+    }
+    
+    switch ($p) {
+      case 'acasa':
+        $pagina = "acasa.php";
+        
+        break;
+    
+      case 'personalitati':
+        $pagina = "personalitati.php";
+        break;
+    
+      case 'consecinte':
+        $pagina = "consecinte.php";
+        break;
+    
+      case 'alianta':
+        $pagina = "sfanta_alianta.html";
+        break;
+    
+      case 'state':
+        $pagina = "state.php";
+        break;
+
+      case 'hartaEuropei':
+        $pagina = "hartaEuropei.html";
+        break;
+      
+      default:
+       $pagina = "acasa.php";
+        break;
+    }
+    include ('./module/' . $pagina); 
+    ?>
+      </main>
       <aside id="asideDreapta"></aside>
       <footer></footer>
     </div>
