@@ -96,7 +96,7 @@ header {
 
 main {
     /* background-color: var(--secondary-1-1); */
-    text-shadow: 0 0 4px 10px var(--secondary-1-1);
+    box-shadow: 0 0 4px var(--secondary-1-1);
     color: rgb(13, 13, 13);
     font-size: 1.6rem;
 }
@@ -106,7 +106,7 @@ footer {
 }
 
 aside#asideStanga {
-    background-color: var(--secondary-1-4);
+    box-shadow: 0 0 4px var(--secondary-1-4);
 }
 
 aside#asideDreapta {

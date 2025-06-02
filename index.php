@@ -35,7 +35,10 @@
       switch ($p) {
         case 'acasa':
           $pagina = "acasa.php";
+          break;
 
+        case 'mareaCrizaEconomica':
+          $pagina = "mareaCrizaEconomica.php";
           break;
 
         case 'bataliaGranelor':
