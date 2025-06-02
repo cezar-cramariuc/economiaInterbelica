@@ -15,3 +15,6 @@
 
 
 </section>
+<section>
+    <p><a href="index.php?p=mareaCrizaEconomica-exercitii">Exerciții</a></p>
+</section>

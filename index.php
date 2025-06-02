@@ -41,6 +41,10 @@
           $pagina = "mareaCrizaEconomica.php";
           break;
 
+        case "mareaCrizaEconomica-exercitii":
+          $pagina = "mareaCrizaEconomica-exercitii.php";
+          break;
+
         case 'bataliaGranelor':
           $pagina = "bataliaGranelor.php";
           break;
