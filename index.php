@@ -42,6 +42,10 @@
           $pagina = "bataliaGranelor.php";
           break;
 
+        case 'jurnalByers':
+          $pagina = "jurnalByers.php";
+          break;
+
         default:
           $pagina = "acasa.php";
           break;

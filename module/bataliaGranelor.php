@@ -5,7 +5,7 @@
     Sursa
     primară – discurs politic Autorul
     Joseph Vissarionovich Stalin (1878–1953)
-    <h1>Descriere</h1>
+    <h2>Descriere</h2>
     <p>Stalin a fost liderul politic al Uniunii Sovietice din 1924 până la moartea sa în 1953. Această sursă este un
         fragment dintr-un discurs pe care l-a ținut ca răspuns la o întrebare a unui student cu privire la problemele cu aprovizionarea cu cereale. S-a întâmplat în timpul unei discuții la Institutul Profesorilor Roșii, Academia
         Comunistă și Universitatea Sverdlov pe 28 mai 1928. Primul plan cincinal a început la scurt timp după această
@@ -28,7 +28,9 @@
             </ol>
             <figcaption>
                 <cite> Colecția Stalin, Joseph și Fry de istorie și cultură italiană. Probleme ale leninismului. New York: International Publishers, 1934.</cite>
+            </figcaption>
         </blockquote>
-        </figcaption>
+
     </figure>
+    <p><a href="index.php?p=jurnalByers">A căștigat Stalin bătălia grânelor?</a></p>
 </section>
