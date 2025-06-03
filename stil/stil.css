@@ -224,6 +224,21 @@ aside#asideDreapta {
     grid-column: 1 / 13;
     grid-row: 1 / 2;
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+  }
+
+  header div#titluSite {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  nav {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: end;
+    align-self: center;
+    padding-right: 2rem;
   }
 
   #asideStanga {
@@ -270,8 +285,21 @@ section h2 {
   padding-top: 4rem;
 }
 
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
 ul li {
   list-style-position: inside;
+}
+
+form label {
+  display: block;
 }
 
 textarea {

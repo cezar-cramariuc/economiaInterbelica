@@ -16,7 +16,7 @@
       </div>
       <nav>
         <ul>
-          <li>Înregistrare</li>
+          <li><a href="index.php?p=inregistrare">Înregistrare</a></li>
         </ul>
       </nav>
     </header>
@@ -42,6 +42,10 @@
       switch ($p) {
         case 'acasa':
           $pagina = "acasa.php";
+          break;
+
+        case 'inregistrare':
+          $pagina = "formularInregistrare.php";
           break;
 
         case 'mareaCrizaEconomica':
