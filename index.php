@@ -11,7 +11,14 @@
 <body>
   <div id="pagina">
     <header>
-      <h1>Economia interbelică</h1>
+      <div id="titluHeader">
+        <h1>Economia interbelică</h1>
+      </div>
+      <nav>
+        <ul>
+          <li>Înregistrare</li>
+        </ul>
+      </nav>
     </header>
     <aside id="asideStanga">
       <div id="subiecte">

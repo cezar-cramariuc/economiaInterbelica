@@ -126,6 +126,20 @@ aside#asideDreapta {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+  }
+
+  header div#titluSite {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  nav {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: end;
+    align-self: center;
   }
 
   #asideStanga {
