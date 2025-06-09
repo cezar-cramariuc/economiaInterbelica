@@ -11,7 +11,7 @@
 <body>
   <div id="pagina">
     <header>
-      <div id="titluHeader">
+      <div id="titluSite">
         <h1>Economia interbelică</h1>
       </div>
       <nav>

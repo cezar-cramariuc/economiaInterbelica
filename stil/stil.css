@@ -207,7 +207,6 @@ aside#asideDreapta {
   header h1 {
     font-size: var(--fs-800);
     color: var(--primary-2);
-    place-self: center;
   }
 }
 
@@ -231,6 +230,11 @@ aside#asideDreapta {
   header div#titluSite {
     grid-column: 1/2;
     grid-row: 1/2;
+    display: grid;
+  }
+
+  header div#titluSite h1 {
+    place-self: center;
   }
 
   nav {
